@@ -1,7 +1,7 @@
 // CUSTOMIZE THIS FILE TO ADD YOUR OWN DATA
 
 const data = {
-    name: "John Doe",
+    name: "Alex Simard",
     bio: "Undergraduate Architectural Student at University of Calgary passionate about building tools to make homes more affordable.",
     contact: {
         email: "john.doe@gmail.com",

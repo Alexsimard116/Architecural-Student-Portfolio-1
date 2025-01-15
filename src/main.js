@@ -3,7 +3,7 @@ import data from "./data/data";
 import { createThreeScene } from "./threeScene";
 
 const cubes = [
-  "./cubeDrawings/cube1.webp",
+  "./cubeDrawings/Bottle-Image.jpeg",
   "./cubeDrawings/cube2.webp",
   "./cubeDrawings/cube3.webp",
   "./cubeDrawings/cube4.webp",
