@@ -31,7 +31,7 @@ document.querySelector("#app").innerHTML = `
         </div>
         <div id="images-description">
           <div id="images">
-            <img src="./cubeDrawings/DSGN_313_Collage_Alex_Simard.jpg">
+            <img src="./cubeDrawings/DSGN_313_Cadavre_Exquis_Simard_AlexV2.jpg">
             <img src="./cubeDrawings/DSGN_313_Cadavre_Exquis_Simard_Alex.jpg">
             <img src="./cubeDrawings/DSGN_313_Cadavre_Exquis_Simard_Alex2.jpg">
             <img src="./cubeDrawings/DSGN_313_Cadavre_Exquis_Simard_Alex3.jpg">
