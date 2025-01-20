@@ -27,14 +27,24 @@ document.querySelector("#app").innerHTML = `
       <div id="project-row">
       Model 1
         <div class="three-model">
-          <div id="model1"></div>
+          <a href="./cubeDrawings/DSGN_313_Cadavre_Exquis_Simard_AlexV2.jpg" target="new">
+              <img src="./cubeDrawings/DSGN_313_Cadavre_Exquis_Simard_AlexV2.jpg" alt="random image" width="400" height="300" id="model1"> 
+            </a>
         </div>
         <div id="images-description">
           <div id="images">
-            <img src="./cubeDrawings/DSGN_313_Cadavre_Exquis_Simard_AlexV2.jpg">
-            <img src="./cubeDrawings/DSGN_313_Cadavre_Exquis_Simard_Alex.jpg">
-            <img src="./cubeDrawings/DSGN_313_Cadavre_Exquis_Simard_Alex2.jpg">
-            <img src="./cubeDrawings/DSGN_313_Cadavre_Exquis_Simard_Alex3.jpg">
+            <a href="./cubeDrawings/DSGN_313_Cadavre_Exquis_Simard_AlexV2.jpg" target="new">
+              <img src="./cubeDrawings/DSGN_313_Cadavre_Exquis_Simard_AlexV2.jpg" alt="random image" width="400" height="300">
+            </a>
+            <a href="./cubeDrawings/DSGN_313_Cadavre_Exquis_Simard_Alex.jpg" target="new">
+              <img src="./cubeDrawings/DSGN_313_Cadavre_Exquis_Simard_Alex.jpg" alt="random image" width="400" height="300">
+            </a>
+            <a href="./cubeDrawings/DSGN_313_Cadavre_Exquis_Simard_Alex2.jpg" target="new">
+              <img src="./cubeDrawings/DSGN_313_Cadavre_Exquis_Simard_Alex2.jpg" alt="random image" width="400" height="300">
+            </a>
+            <a href="./cubeDrawings/DSGN_313_Cadavre_Exquis_Simard_Alex3.jpg" target="new">
+              <img src="./cubeDrawings/DSGN_313_Cadavre_Exquis_Simard_Alex3.jpg" alt="random image" width="400" height="300">
+            </a>
           </div>
           <h4 id="description">Throughout my teenage years, I found myself losing a part of my identity, one which directed me as a child; my desire for adventure. Over time I began to see moments of excitement, formed on the back of adventures and exploration, slip away, leaving me discontent with the monotony of which my life was quickly becoming. Upon reflecting on this issue further, I was able to reintroduce “adventure” into my life. Despite this, I have been left with a singular question: If I am to lose this part of me again, will the next time I regain it be too late?.</h4>
         </div>
