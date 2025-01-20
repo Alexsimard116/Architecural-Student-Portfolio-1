@@ -3,7 +3,7 @@ import data from "./data/data";
 import { createThreeScene } from "./threeScene";
 
 const cubes = [
-  "./treedrawings/DSGN_313_Cadavre_Exquis_Simard_Alex.jpg",
+  "./treeDrawings/DSGN_313_Cadavre_Exquis_Simard_Alex.jpg",
   "./DSGN_313_Cadavre_Exquis_Simard_Alex2.jpg",
   "./DSGN_313_Cadavre_Exquis_Simard_Alex3.jpg",
   "./DSGN 313-Collage-Alex Simard.jpg",
@@ -31,13 +31,12 @@ document.querySelector("#app").innerHTML = `
         </div>
         <div id="images-description">
           <div id="images">
-            ${cubes
-              .map(
-                (cube, index) => `<img src="${cube}" alt="cube${index + 1}" />`
-              )
-              .join("")}
+            <img src="./cubeDrawings/DSGN_313_Collage_Alex_Simard.jpg">
+            <img src="./cubeDrawings/DSGN_313_Cadavre_Exquis_Simard_Alex.jpg">
+            <img src="./cubeDrawings/DSGN_313_Cadavre_Exquis_Simard_Alex2.jpg">
+            <img src="./cubeDrawings/DSGN_313_Cadavre_Exquis_Simard_Alex3.jpg">
           </div>
-          <h4 id="description">A cubic 3D model is a geometric representation of a cube, consisting of six equal square faces joined at right angles. Each edge of the cube is of equal length, forming a symmetrical, rigid structure. The model can be textured, colored, or transparent, and it may include variations such as beveled edges or hollow interiors, depending on its intended purpose in design, animation, or engineering.</h4>
+          <h4 id="description">Throughout my teenage years, I found myself losing a part of my identity, one which directed me as a child; my desire for adventure. Over time I began to see moments of excitement, formed on the back of adventures and exploration, slip away, leaving me discontent with the monotony of which my life was quickly becoming. Upon reflecting on this issue further, I was able to reintroduce “adventure” into my life. Despite this, I have been left with a singular question: If I am to lose this part of me again, will the next time I regain it be too late?.</h4>
         </div>
       </div>
 

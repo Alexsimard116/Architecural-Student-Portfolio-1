@@ -2,7 +2,7 @@
 
 const data = {
     name: "Alex Simard",
-    bio: "Undergraduate Architectural Student at University of Calgary passionate about building tools to make homes more affordable.",
+    bio: "Second year student with the Bachelor of Design in City Innovation program at the University of Calgary.",
     contact: {
         email: "alexander.simard@ucalgary.ca",
         phone: "+12345678910",
