@@ -3,7 +3,7 @@ import data from "./data/data";
 import { createThreeScene } from "./threeScene";
 
 const cubes = [
-  "./DSGN_313_Cadavre_Exquis_Simard_Alex.jpg",
+  "./treedrawings/DSGN_313_Cadavre_Exquis_Simard_Alex.jpg",
   "./DSGN_313_Cadavre_Exquis_Simard_Alex2.jpg",
   "./DSGN_313_Cadavre_Exquis_Simard_Alex3.jpg",
   "./DSGN 313-Collage-Alex Simard.jpg",
