@@ -17,9 +17,9 @@ const trees = [
 ];
 
 const dogs = [
-  "./public/3d_print.png",
-  "./public/Paper Model.png",
-  "./public/Photogrammetry.png",
+  "./3d_print.png",
+  "./Paper Model.png",
+  "./Photogrammetry.png",
 ];
 document.querySelector("#app").innerHTML = `
   <main id="container">
