@@ -10,10 +10,10 @@ const cubes = [
 ];
 
 const trees = [
-  "./public/Naming_Convention.png",
-  "./public/Object_1.png",
-  "./public/Object_2.png",
-  "./public/Object_3.png",
+  "./Naming_Convention.png",
+  "./Object_1.png",
+  "./Object_2.png",
+  "./Object_3.png",
 ];
 
 const dogs = [
