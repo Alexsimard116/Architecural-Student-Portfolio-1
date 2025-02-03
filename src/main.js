@@ -10,12 +10,17 @@ const cubes = [
 ];
 
 const trees = [
-  "./treeDrawings/tree1.jpg",
-  "./treeDrawings/tree2.jpg",
-  "./treeDrawings/tree3.jpg",
-  "./treeDrawings/tree4.jpg",
+  "./public/Naming_Convention.png",
+  "./public/Object_1.png",
+  "./public/Object_2.png",
+  "./public/Object_3.png",
 ];
 
+const dogs = [
+  "./public/3d_print.png",
+  "./public/Paper Model.png",
+  "./public/Photogrammetry.png",
+];
 document.querySelector("#app").innerHTML = `
   <main id="container">
     <section id="heading">
@@ -64,7 +69,19 @@ document.querySelector("#app").innerHTML = `
               )
               .join("")}
           </div>
-          <h4 id="description">A 3D tree model is a geometric representation of a tree, featuring a trunk, branches, and foliage. The trunk is typically cylindrical, with textured bark, while the branches extend outward to support leaves or a canopy. It may include roots or flowers for added detail.</h4>
+          </div>
+                  <div class="three-model">
+                </div>
+        <div id="images-description">
+          <div id="images">
+            ${dogs
+              .map(
+                (dogs, index) =>
+                  `<img src="${dogs}" alt="dog${index + 1}" />`
+              )
+              .join("")}
+          </div>
+          <h4 id="description">Interoperability brought forward the extensive exploration of import/export modifications, and in-house program modifications, yielding wildly different results for each individual combination. With my own approach to this project, I focussed on exploring the cascading effects of these aforementioned manipulations.</h4>
         </div>
       </div>
 
@@ -101,5 +118,5 @@ document.querySelector("#app").innerHTML = `
 
 // Create three.js scenes for each
 createThreeScene("#model1", "/3DModels/project1/cube.obj");
-createThreeScene("#model2", "/3DModels/project2/tree.obj");
+createThreeScene("#model2", "/Portfolio.obj");
 createThreeScene("#model3", "/3DModels/project3/cottage.obj");
